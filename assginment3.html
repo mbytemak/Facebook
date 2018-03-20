@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+
+   <style type="text/css">
+
+
+.items{
+padding:70px 0px 0px 0px;
+
+text-align: left;
+
+
+
+}
+
+#pcheck{
+
+padding: 80px;
+text-align: center;
+justify-content: flex-end;
+}
+.flex-container{
+
+display:flex;
+flex-direction: row;
+justify-content: space-around ;
+width:100%;
+background-color: blue;
+height: 100px;
+padding: 0;
+margin-bottom: 2px solid black;
+}
+
+#profile{
+
+color: white;
+line-height:100px;
+font-weight: bold;
+}
+#status{
+
+  color: white;
+  line-height:100px;
+  font-weight: bold;
+}
+body{
+
+  background-color: yellow;
+}
+   </style>
+
+</head>
+<body>
+
+<div class="container">
+
+    <div class="row">
+
+      <div class=" flex-container ">
+
+        <a id="profile" href="#">Profile </a>
+
+
+        <a id="status" href="#">Status</a>
+      </div>
+
+      <div>
+
+
+<p id="pcheck"><b> My Profile</b> </p>
+
+
+      </div>
+      <div class="status">
+        <div class="col-md-4" id="ones">
+          <b>Recent Posts</b>  <br> <br> <span id="story"></span>
+        </div>
+
+      </div>
+      <div class="items">
+        <div class="col-md-4" id="one">
+          <b>Name </b>- <span id="name"></span>
+        </div>
+        <div class="col-md-4">
+          <b> D.O.B</b>- <span id="birthday"></span>
+        </div>
+        <div class="col-md-4">
+          <b>HomeTown</b> - <span id="myHomeTown"></span>
+        </div>
+        <div class="col-md-4">
+        <b>  Languages</b> - <span id="lang"></span>
+        </div>
+      </div>
+
+
+
+    </div>
+
+
+</div>
+
+
+
+
+<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="app.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+
+
+
+</body>
+
+
+</html>
