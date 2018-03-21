@@ -33,7 +33,6 @@ justify-content: space-around ;
 width:100%;
 background-color: blue;
 height: 100px;
-  
 padding: 0;
 margin-bottom: 2px solid black;
 }
@@ -49,6 +48,20 @@ font-weight: bold;
   color: white;
   line-height:100px;
   font-weight: bold;
+}
+
+#picture{
+
+height:50%;
+width:50%;
+
+
+}
+.status{
+
+padding:0% 25% 25% 25%;
+
+
 }
 body{
 
@@ -84,7 +97,11 @@ body{
         </div>
 
       </div>
-      <div class="items">
+      <div class="row items">
+        <div class="col-md-4" id="one">
+          <span id="picture"></span>
+        </div>
+        <br>
         <div class="col-md-4" id="one">
           <b>Name </b>- <span id="name"></span>
         </div>
@@ -97,6 +114,10 @@ body{
         <div class="col-md-4">
         <b>  Languages</b> - <span id="lang"></span>
         </div>
+        <div class="col-md-4">
+        <b> Email id</b> - <span id="email"></span>
+        </div>
+
       </div>
 
 
@@ -109,8 +130,7 @@ body{
 
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  
+<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="app.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
 
@@ -120,3 +140,4 @@ body{
 
 
 </html>
+
